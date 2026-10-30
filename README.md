@@ -144,7 +144,6 @@ EXPO_PUBLIC_API_URL=http://192.168.1.35:3000
 > - Usá la IP de tu PC, **no** `localhost`: en el celular, `localhost` es el propio teléfono.
 > - Escribila sin barra final y sin comillas.
 > - El puerto `3000` es el que usa el backend por defecto (variable `PORT` de su `.env`).
-> - No subas el archivo `.env` al repositorio: agregalo al `.gitignore`.
 
 Si la variable no está definida, la app usa `http://10.0.2.2:3000`, una dirección que **solo funciona en el emulador de Android**.
 
