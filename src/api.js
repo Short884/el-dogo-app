@@ -1,6 +1,6 @@
 // Una única puerta de entrada a NestJS: mantiene URL, token y errores juntos.
 export const API_URL = (
-  process.env.EXPO_PUBLIC_API_URL || "http://192.168.101:3000"
+  process.env.EXPO_PUBLIC_API_URL || "HTPP://TU-IP:TU-PUERTO"
 ).replace(/\/$/, "");
 
 export function createApi(token, onExpired = () => {}) {
